@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: grey;
+    color: black;
+}
+
+header{
+    display: flex;
+    background-color: plum;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    color: black;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+#addNewBookPopUp {
+    display:none;
+}
+
+#addNewBookPopUp.show{
+    display:block;
+    border-style: solid;
+    border-radius: 2%;
+    border-color: aquamarine;
+    width: fit-content;
+}
